@@ -1,0 +1,209 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+  margin:0px;
+  padding:0px;
+  color:#0B1942;
+}
+
+a:link{
+  color:#00B7D3;
+}
+
+/*Nav bar styling*/
+
+.nav-bar-top{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.logo{
+  flex-basis:33%;
+  background-color: #F5005B;
+  text-align: center;
+  padding:2% 0%;
+}
+
+.nav-bar-links{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-bar-links a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.nav-bar-links-home{
+  background-color: #00A5BF;
+  flex-basis: 20%;
+  padding: 2% 0%;
+}
+
+.nav-bar-links-calendar{
+  background-color: #00B7D3;
+  flex-basis: 20%;
+  padding: 2% 0%;
+}
+
+.nav-bar-links-join{
+  background: #00D5E7;
+  flex-basis: 20%;
+  padding: 2% 0%;
+}
+
+/*Home page - Main info*/
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  padding:1% 5%;
+
+}
+.main-info h1{
+  font-size: 4em;
+  font-weight: 200;
+  margin: 3%, 0%;
+}
+
+.main-info h2{
+  font-weight: 200;
+  font-size: 3em;
+  margin:0.5%;
+}
+
+.sub-header{
+  color:white;
+  background-color: #0B1942;
+  padding: 0%, 0%, 0%, 4%;
+  padding-left: 4%;
+  margin: 2% 0%;
+}
+.bottom-body{
+  background-color: #0B1942;
+  color:white;
+}
+
+
+.film-preview{
+  margin: 0% 5%;
+  color:black;
+  font-size: 2em;
+}
+
+.film-preview-next{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0% 5%;
+  background-color: #DFDFDF;
+  justify-content: space-between;
+}
+
+.film-preview-next-poster{
+  /*flex-basis:40%;*/
+  flex:1;
+  padding-top:5%;
+}
+
+.film-preview-next-poster img{
+  width: 82%;
+}
+
+.film-preview-next-info{
+  flex:1;
+  font-size: 1.2em;
+}
+
+.film-preview-next-link{
+  margin-bottom:-5%;
+}
+
+.film-preview-next-date{
+  border-bottom: 1px solid black;
+}
+
+.film-preview-next-list{
+  list-style-type: circle;
+}
+
+.film-lineup{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0% 3%;
+  margin: 5%;
+  background-color: #DFDFDF;
+  justify-content: space-around;
+  color:#0B1942;
+  font-size:203%;
+  font-weight: 200;
+}
+
+.film-lineup-train{
+  flex-basis:45%;
+  max-width: 100%;
+  padding-top: 5%;
+}
+
+.film-lineup-bicycle{
+  flex-basis:45%;
+  padding-top: 5%;
+}
+
+.film-lineup-nos{
+  flex-basis: 45%;
+}
+
+.film-lineup-metro{
+  flex-basis:45%;
+}
+
+.film-lineup-train-preview h5{
+  margin:2% 0%;
+}
+
+.film-lineup-train-date p{
+  margin: 2% 0% 15% 0%;
+}
+
+.film-lineup-bicycle-preview h5{
+  margin: 2% 0%;
+}
+
+.film-lineup-bicycle-date p{
+  margin: 2% 0% 15% 0%;
+}
+
+.film-lineup-nos-preview h5{
+  margin: 2% 0%;
+}
+
+.film-lineup-nos-date p{
+margin: 2% 0% 15% 0%;
+}
+
+.film-lineup-metro-preview h5{
+  margin: 2% 0%;
+}
+.film-lineup-metro-date p{
+  margin: 2% 0% 15% 0%;
+}
+
+.film-lineup-train-poster img{
+  width:100%;
+}
+
+.film-lineup-bicycle-poster img{
+  width:100%;
+}
+
+.film-lineup-nos-poster img{
+  width:100%;
+}
+
+.film-lineup-metro-poster img{
+  width:100%;
+}
