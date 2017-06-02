@@ -326,5 +326,39 @@ a:link{
     padding:2% 1%;
   }
 
+  .nav-bar-bot{
+    flex-basis: 40%;
+    padding:0px;
+    margin:0px;
+  }
 
+  .nav-bar-bot .nav-bar-links{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-bottom:0px;
+  }
+
+  .nav-bar-bot .nav-bar-links .nav-bar-links-home{
+    padding: 10% 0%;
+  }
+
+  .nav-bar-bot .nav-bar-links .nav-bar-links-calendar{
+    padding: 10% 0%;
+  }
+
+  .nav-bar-bot .nav-bar-links .nav-bar-links-join{
+    padding: 10% 0%;
+  }
+
+  .bottom-footer-all{
+    display: flex;
+  }
+
+  footer{
+    flex:1;
+  }
+  footer p{
+    text-align: right;
+    padding:8% 0%;
+  }
 }
