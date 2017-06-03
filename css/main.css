@@ -289,7 +289,7 @@ footer p {
 .day {
   background-color: #0B1942;
   color: white;
-  border: 1px solid black;
+  border: 1px solid #0B1942;
   margin-bottom: 63%;
   margin-right: 50%;
   flex: 1;
@@ -361,15 +361,15 @@ footer p {
     flex: 1;
   }
   .nav-bar-links-home {
-    flex-basis: 10%;
+    flex-basis: 12%;
     padding-top: 8%;
   }
   .nav-bar-links-join {
-    flex-basis: 10%;
+    flex-basis: 12%;
     padding-top: 8%;
   }
   .nav-bar-links-calendar {
-    flex-basis: 10%;
+    flex-basis: 12%;
     padding-top: 8%;
   }
   .nav-bar-links-empty {
@@ -407,7 +407,7 @@ footer p {
     padding: 2% 1%;
   }
   .nav-bar-bot {
-    flex-basis: 40%;
+    flex-basis: 45%;
     padding: 0px;
     margin: 0px;
   }
@@ -437,10 +437,43 @@ footer p {
   }
 }
 
-
 /*End of tablet home page styling*/
+/*Start of tablet styling for calendar page*/
 
+.logo{
+  flex-basis:12%;
+  width:88%;
+}
 
+.nav-bar-links-home{
+  padding-top:6%;
+}
+
+.nav-bar-links-join{
+  padding-top:6%;
+}
+
+.nav-bar-links-calendar{
+  padding-top:6%;
+}
+
+.calendar-header h2{
+  background-color: white;
+  margin: 0px;
+  padding:3%;
+}
+
+.calendar-month h3{
+  padding: 2% 0% 2% 3.5%;
+}
+
+.day{
+  margin-right: 75%;
+}
+
+.calendar-row-bot{
+  margin-bottom:5%;
+}
 /*Desktop styling*/
 
 @media ( min-width: 769px) {
@@ -498,5 +531,10 @@ footer p {
   }
 }
 
-
 /*End of Desktop styling for home page*/
+/*Styling for desktop calendar page starts*/
+
+.logo img{
+  width: 88%;
+}
+/*End of stling for Desktop calendar page*/
