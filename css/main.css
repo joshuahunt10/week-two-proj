@@ -65,6 +65,10 @@ a:link {
   padding-top: 1%;
 }
 
+.nav-bar-links-home a, .nav-bar-links-join a, .nav-bar-links-calendar a{
+  cursor: pointer;
+}
+
 .nav-bar-links-empty {
   display: none;
 }
@@ -503,7 +507,7 @@ footer p {
   }
   footer p {
     text-align: right;
-    padding: 10% 0%;
+    padding: 9% 0%;
   }
 
 
@@ -560,15 +564,32 @@ footer p {
 
 .regis-form-info{
   flex:1;
-  margin:0px
+  margin:0px;
+}
+
+.regis-form-personel div:nth-child(2) {
+  justify-content: flex-start;
+  flex-basis:10%;
+}
+
+.regis-form-personel div:nth-child(3){
+  justify-content: center;
 }
 
 .regis-form-info-type{
   margin:0px;
 }
 
-.name-title p{
-  margin-top:0px;
+.regis-form-info-type p{
+  margin:0px;
+}
+
+.email-title p{
+  margin: -5% 0% 2% 0%;
+}
+
+.regis-form-info_password{
+  margin-top:25%;
 }
 
 .regis-form-profile_pic img {
@@ -611,6 +632,11 @@ footer p {
   font-size: 0.9rem;
   }
 
+  .regis-form-personel{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+  }
 }
 /*Desktop styling*/
 
@@ -675,5 +701,109 @@ footer p {
 .logo img{
   width: 88%;
 }
-}
 /*End of stling for Desktop calendar page*/
+
+/*Desktop styling for join page*/
+
+.regis-form{
+  padding: 0% 0% 0% 3%;
+}
+
+.regis-form-upload_pic p{
+  font-size:1.2rem;
+}
+
+.regis-form-upload_pic{
+  flex-basis:40%;
+}
+
+.regis-form-info{
+  flex-direction: column;
+  flex-basis:40%;
+  justify-content: flex-start;
+  padding-right:5%;
+
+}
+
+.regis-form-personel div:nth-child(2) {
+  justify-content: flex-start;
+  flex-basis:40%;
+  order:3;
+}
+
+.regis-form-personel div:nth-child(3) {
+  justify-content: flex-start;
+  order:2;
+}
+
+.regis-form-personel div:nth-child(1) {
+  justify-content: flex-start;
+  order:1;
+}
+
+.regis-form-personel div:nth-child(4) {
+  justify-content: flex-start;
+  order:4;
+}
+
+.email-title p {
+  margin: 5% 0% 0% 0%;
+}
+.regis-form-personel{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.conf_pass-title p{
+  margin: 5% 0% 0% 0%;
+}
+
+.regis-form-info-type p{
+  font-size: 1.2rem;
+}
+
+.regis-form-profile_pic img{
+  width: 87%;
+  margin:0%;
+}
+
+.regis-form-genre_title{
+  margin:0%;
+}
+
+.regis-form-genre_list{
+  justify-content: flex-start;
+}
+
+.checkbox{
+  flex-basis: 23%;
+  padding: 1% 10% 0% 0%;
+  font-size:1.2rem;
+}
+
+.regis-form-genre_title p{
+  font-size: 1.2rem;
+}
+
+.regis-form-info-input_title p{
+  font-size: 1.2rem;
+  margin: 3% 0% 0% 0%;
+}
+
+.regis-form-submit input[type="submit"]{
+  font-size: 1.2rem;
+  padding: 2%;
+}
+
+input[type="file"]{
+  font-size: 1.2rem;
+}
+
+.regis-form-input_box textarea{
+  width:56%;
+}
+
+}
