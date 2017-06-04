@@ -101,7 +101,6 @@ a:link {
 .bottom-body {
   background-color: #0B1942;
   color: white;
-  /*padding: 0.25% 0% 5% 2%;*/
 }
 
 .bottom-body h2 {
@@ -337,6 +336,77 @@ footer p {
 
 /*End of mobile styling for calendar page*/
 
+/*Start of join page mobile styling*/
+
+/*.regist-form-upload_pic input[type="file"]{
+  border: 1px solid #ccc;
+}*/
+
+.regis-form-profile_pic{
+  margin: 9% 0%;
+
+}
+
+.regis-form-upload_pic p{
+  margin: 0%;
+  font-size: 0.8rem;
+}
+
+.regis-form-profile_pic img{
+  width:80%;
+  margin-left: 10%;
+  border-radius: 50%;
+}
+
+.regis-form{
+  display: flex;
+  flex-direction: column;
+  padding:0% 4%;
+  background-color: white;
+}
+
+.regis-form-info-type{
+  margin-top:4%;
+}
+
+.regis-form-input input[type="text"], input[type="password"], input[type="email"]{
+  width:100%;
+  padding: 2% 0%;
+}
+
+.regis-form-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.regis-form-genre_list{
+  display: flex;
+  flex-direction: column;
+}
+
+.regis-form-genre_title{
+  margin: 10% 0% 5% 0%;
+}
+
+.checkbox{
+  padding:2% 0%;
+}
+
+.regis-form-info{
+  margin-top:5%;
+}
+
+.regis-form-input_box textarea{
+  width: 100%;
+}
+
+.regis-form-submit input[type="submit"]{
+  background-color: #F5005B;
+  color: white;
+  border: none;
+  padding:5% 4%;
+  margin: 5% 0%;
+}
 
 /*Tablet styling*/
 
@@ -433,7 +503,7 @@ footer p {
   }
   footer p {
     text-align: right;
-    padding: 8% 0%;
+    padding: 10% 0%;
   }
 
 
@@ -474,6 +544,73 @@ footer p {
 .calendar-row-bot{
   margin-bottom:5%;
 }
+
+/*End of calendar tablet styling*/
+
+/*Start of join tablet styling*/
+
+.regis-form{
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+.regis-form-upload_pic{
+  flex-basis:49%;
+}
+
+.regis-form-info{
+  flex:1;
+  margin:0px
+}
+
+.regis-form-info-type{
+  margin:0px;
+}
+
+.name-title p{
+  margin-top:0px;
+}
+
+.regis-form-profile_pic img {
+  width: 94%;
+  margin-left: 0%;
+  margin-top: 5%;
+  margin: 5% 0% 0% 0%;
+}
+
+.regis-form-checkbox{
+  flex-basis:100%;
+  flex-direction: row;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.regis-form-genre_title {
+  margin: 3% 0% 0% 0%;
+  flex-basis:100%;
+}
+
+.regis-form-genre_list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.checkbox{
+  flex-basis: 40%;
+  padding:2% 10% 0% 0%;
+}
+
+.regis-form-textarea{
+  flex-basis:100%;
+}
+
+.regis-form-submit input[type="submit"] {
+  padding: 3% 3%;
+  font-size: 0.9rem;
+  }
+
 }
 /*Desktop styling*/
 

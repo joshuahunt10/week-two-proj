@@ -1,111 +1,170 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="../css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Film Club - Join</title>
-  </head>
-  <body>
-    <nav class="nav-bar-top">
-      <div class="logo">
-        <img src="../images/filmclub.png" alt="film club logo">
+
+<head>
+  <link rel="stylesheet" href="../css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Film Club - Join</title>
+</head>
+
+<body>
+  <nav class="nav-bar-top">
+    <div class="logo">
+      <img src="../images/filmclub.png" alt="film club logo">
+    </div>
+    <div class="nav-bar-links">
+      <div class="nav-bar-links-home">
+        <a href="../index.html">Home</a>
       </div>
+      <div class="nav-bar-links-join">
+        <a href="../calendar/index.html">Calendar</a>
+      </div>
+      <div class="nav-bar-links-calendar">
+        <a href="index.html">Join</a>
+      </div>
+      <div class="nav-bar-links-empty">
+        <p></p>
+      </div>
+    </div>
+  </nav>
+
+  <div class="calendar-header">
+    <h2>Join Film Club</h2>
+  </div>
+
+  <div class="regis-form">
+    <div class="regis-form-upload_pic">
+      <p>profile picture</p>
+      <input type="file" name="profile_pic" value="">
+      <div class="regis-form-profile_pic">
+        <img src="../images/profile-placeholder.png" alt="Profile placeholder picture">
+      </div>
+    </div>
+    <div class="regis-form-info">
+      <div class="regis-form-info-type">
+        <span class="name-title"><p>name</p></span>
+      </div>
+      <div class="regis-form-input">
+        <input type="text" name="fname" value="">
+      </div>
+      <div class="regis-form-info">
+        <div class="regis-form-info-type">
+          <p>email</p>
+        </div>
+        <div class="regis-form-input">
+          <input type="email" name="email" value="">
+        </div>
+      </div>
+      <div class="regis-form-info">
+        <div class="regis-form-info-type">
+          <p>password</p>
+        </div>
+        <div class="regis-form-input">
+          <input type="password" name="pass1" value="">
+        </div>
+      </div>
+      <div class="regis-form-info">
+        <div class="regis-form-info-type">
+          <p>confirm password</p>
+        </div>
+        <div class="regis-form-input">
+          <input type="password" name="pass2" value="">
+        </div>
+      </div>
+    </div>
+    <div class="regis-form-checkbox">
+
+
+      <div class="regis-form-genre_title">
+        <p>What genre's are you interested in?</p>
+      </div>
+      <div class="regis-form-genre_list">
+        <div class="checkbox">
+          <input type="checkbox" name="genre" id="action" value="action">
+          <label for="action">action</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="genre" id="adventure" value="adventure">
+          <label for="adventure">adventure</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="genre" id="comedy" value="comedy">
+          <label for="comedy">comedy</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="genre" id="drama" value="drama">
+          <label for="drama">drama</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="genre" id="fantasy" value="fantasy">
+          <label for="fantasy">fantasy</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="genre" id="historical" value="historical">
+          <label for="historical">historical</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="genre" id="horror" value="horror">
+          <label for="horror">horror</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="genre" id="mystery" value="mystery">
+          <label for="mystery">mystery</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="genre" id="romance" value="romance">
+          <label for="romance">romance</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="genre" id="sci-fi" value="sci-fi">
+          <label for="sci-fi">science fiction</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="genre" id="western" value="western">
+          <label for="western">western</label>
+        </div>
+
+      </div>
+    </div>
+    <div class="regis-form-textarea">
+      <div class="regis-form-info-input_title">
+        <p>Additional Input</p>
+      </div>
+      <div class="regis-form-input_box">
+        <textarea name="addn_input" rows="5" maxlength="200"></textarea>
+      </div>
+
+      <div class="regis-form-submit">
+        <input type="submit" name="" value="Join Film Club">
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="bottom-footer-all">
+    <nav class="nav-bar-bot">
       <div class="nav-bar-links">
         <div class="nav-bar-links-home">
           <a href="../index.html">Home</a>
         </div>
-        <div class="nav-bar-links-join">
+        <div class="nav-bar-links-calendar">
           <a href="../calendar/index.html">Calendar</a>
         </div>
-        <div class="nav-bar-links-calendar">
+        <div class="nav-bar-links-join">
           <a href="index.html">Join</a>
         </div>
-        <div class="nav-bar-links-empty">
-          <p></p>
-        </div>
+
       </div>
+
     </nav>
 
-    <div class="calendar-header">
-      <h2>Join Film Club</h2>
-    </div>
+    <footer>
+      <p>© 2017, Film Club</p>
+    </footer>
+  </div>
+</body>
 
-    <div class="regis-form">
-      <div class="regis-form-upload_pic">
-        <div class="regis-form-profile_pic">
-          <div class="regis-form-info">
-            <div class="regis-form-info-type">
-              <p>name</p>
-            </div>
-            <div class="regis-form-input">
-              <!--text box input  -->
-            </div>
-            <div class="regis-form-info">
-              <div class="regis-form-info-type">
-                <p>email</p>
-              </div>
-              <div class="regis-form-input">
-                <!--email box input  -->
-              </div>
-            </div>
-            <div class="regis-form-info">
-              <div class="regis-form-info-type">
-                <p>password</p>
-              </div>
-              <div class="regis-form-input">
-                <!--password box input  -->
-              </div>
-            </div>
-            <div class="regis-form-info">
-              <div class="regis-form-info-type">
-                <p>confirm password</p>
-              </div>
-              <div class="regis-form-input">
-                <!--password box input  -->
-              </div>
-            </div>
-            <div class="regis-form-genre">
-              <p>What genre's do you listen to</p>
-              <!--checkbox list  -->
-            </div>
-            <div class="regis-form-info">
-              <div class="regis-form-info-input_title">
-                <p>Additional Input</p>
-              </div>
-              <div class="regis-form-input_box">
-                <!--Text input box  -->
-              </div>
-            </div>
-            <div class="regis-form-submit">
-              <!-- submit button  -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="bottom-footer-all">
-      <nav class="nav-bar-bot">
-        <div class="nav-bar-links">
-          <div class="nav-bar-links-home">
-            <a href="../index.html">Home</a>
-          </div>
-          <div class="nav-bar-links-calendar">
-            <a href="../calendar/index.html">Calendar</a>
-          </div>
-          <div class="nav-bar-links-join">
-            <a href="index.html">Join</a>
-          </div>
-
-        </div>
-
-      </nav>
-
-      <footer>
-        <p>© 2017, Film Club</p>
-      </footer>
-    </div>
-  </body>
 </html>
