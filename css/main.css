@@ -24,7 +24,7 @@ a:link {
   flex-basis: 33%;
   background-color: #F5005B;
   text-align: center;
-  padding: 2% 3%;
+  padding: 3%;
 }
 
 .logo img{
@@ -435,7 +435,7 @@ footer p {
     text-align: right;
     padding: 8% 0%;
   }
-}
+
 
 /*End of tablet home page styling*/
 /*Start of tablet styling for calendar page*/
@@ -473,6 +473,7 @@ footer p {
 
 .calendar-row-bot{
   margin-bottom:5%;
+}
 }
 /*Desktop styling*/
 
@@ -529,12 +530,13 @@ footer p {
     flex: 1;
     margin: 0px 2% 5% 0%;
   }
-}
+
 
 /*End of Desktop styling for home page*/
 /*Styling for desktop calendar page starts*/
 
 .logo img{
   width: 88%;
+}
 }
 /*End of stling for Desktop calendar page*/
