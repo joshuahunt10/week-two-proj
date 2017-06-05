@@ -54,13 +54,13 @@ a:link {
 }
 
 .nav-bar-links-join {
-  background-color: #00B7D3;
+  background-color: #00D5E7;
   flex: 1;
   padding-top: 1%;
 }
 
 .nav-bar-links-calendar {
-  background: #00D5E7;
+  background: #00B7D3;
   flex: 1;
   padding-top: 1%;
 }
@@ -507,7 +507,7 @@ footer p {
   }
   footer p {
     text-align: right;
-    padding: 9% 0%;
+    padding: 9% 4% 0% 9%;
   }
 
 
