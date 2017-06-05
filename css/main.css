@@ -328,6 +328,7 @@ footer p {
 .calendar-row-bot {
   flex-basis: 43%;
   display: flex;
+  padding-bottom: 5%;
 }
 
 #bg-pink{
